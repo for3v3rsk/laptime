@@ -43,7 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #eee;
+    background-color: #2c2c2c;
 }
 
 ol, ul {
@@ -98,6 +98,7 @@ main {
     h1 {
         font-size: 1.5em;
         font-weight: 600;
+        color: #d8d8d8;
         text-transform: uppercase;
         letter-spacing: 0.15em;
         word-spacing: 0.12em;
@@ -199,7 +200,6 @@ main {
     li {
         font-size: 1.2em;
         padding: 0.6em 1.2em;
-       
         border-bottom: 1px solid #bbb;
     }
 
@@ -216,6 +216,7 @@ main {
 footer {
     position: absolute;
     bottom: 1.5em;
+    color: #d8d8d8;
 }
 
 
