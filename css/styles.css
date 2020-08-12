@@ -239,6 +239,10 @@ main #timerButtons .fa-clipboard-list {
   border-top: 1px solid #bbb;
 }
 
+.runLapTimes li:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
 footer {
   position: absolute;
   bottom: 1.5em;
