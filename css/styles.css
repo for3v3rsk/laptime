@@ -55,10 +55,6 @@ body {
   background-color: #2c2c2c;
 }
 
-ol, ul {
-  list-style: none;
-}
-
 blockquote, q {
   quotes: none;
 }
@@ -230,17 +226,21 @@ main #timerButtons .fa-clipboard-list {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.runLapTimes li {
+.runLapTimes #lapList li {
+  list-style-type: decimal-leading-zero;
+}
+
+.runLapTimes #lapList li {
   font-size: 1.2em;
   padding: 0.6em 1.2em;
   border-bottom: 1px solid #bbb;
 }
 
-.runLapTimes li:first-child {
+.runLapTimes #lapList li:first-child {
   border-top: 1px solid #bbb;
 }
 
-.runLapTimes li:nth-child(odd) {
+.runLapTimes #lapList li:nth-child(odd) {
   background-color: #f7f7f7;
 }
 
