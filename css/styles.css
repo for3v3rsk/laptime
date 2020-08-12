@@ -222,7 +222,7 @@ main #timerButtons .fa-clipboard-list {
 }
 
 .runLapTimes #lapList {
-  max-height: 40vmin;
+  max-height: 45vmin;
   overflow-y: auto;
   text-align: center;
   width: 300px;
